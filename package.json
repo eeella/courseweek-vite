@@ -1,0 +1,25 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && rm -rf docs && mv dist docs && git add . && git commit -m '自動部署' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeella/courseweek-vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eeella/courseweek-vite/issues"
+  },
+  "homepage": "https://github.com/eeella/courseweek-vite#readme",
+  "description": "",
+  "devDependencies": {
+    "vite": "^7.0.6"
+  }
+}
